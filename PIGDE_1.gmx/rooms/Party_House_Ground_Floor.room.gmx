@@ -42,7 +42,7 @@
   </backgrounds>
   <views>
     <view visible="-1" objName="obj_player1" xview="0" yview="0" wview="500" hview="400" xport="0" yport="0" wport="500" hport="400" hborder="250" vborder="200" hspeed="-1" vspeed="-1"/>
-    <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
+    <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="500" hview="400" xport="0" yport="0" wport="500" hport="400" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
@@ -145,31 +145,43 @@
     <instance objName="obj_controller" x="5" y="5" name="inst_D3E5F0F3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="floorChanger" x="1512" y="526" name="inst_222A1C5C" locked="0" code="targetRoom = Party_House_First_Floor;&#xA;target_x = 1305;&#xA;target_y = 488;&#xA;" scaleX="3.40000009536743" scaleY="2.29999995231628" colour="4294967295" rotation="0"/>
     <instance objName="floorChanger" x="1439" y="92" name="inst_E9E2904F" locked="0" code="targetRoom = rm_shop;&#xA;target_x = 1005;&#xA;target_y = 865;&#xA;" scaleX="26.6000003814697" scaleY="0.600000023841858" colour="4294967295" rotation="0"/>
-    <instance objName="obj_moneyEffect01" x="2302" y="620" name="inst_3C6812E7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_moneyEffect01" x="2178" y="603" name="inst_19225787" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_moneyEffect01" x="1422" y="866" name="inst_56E33E0F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_moneyEffect01" x="2215" y="935" name="inst_14B0A09D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_moneyEffect01" x="1367" y="480" name="inst_30F0F14F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_moneyEffect01" x="877" y="717" name="inst_30F96DB1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_comma_coin" x="692" y="671" name="inst_6AA570A5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_comma_coin" x="702" y="870" name="inst_E5827777" locked="0" code="" scaleX="0.100000001490116" scaleY="0.100000001490116" colour="4294967295" rotation="0"/>
-    <instance objName="obj_comma_coin" x="886" y="905" name="inst_2902E7AC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_comma_coin" x="1086" y="776" name="inst_9F38908E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_comma_coin" x="702" y="870" name="inst_F44FB1C4" locked="0" code="" scaleX="0.100000001490116" scaleY="0.100000001490116" colour="4294967295" rotation="0"/>
-    <instance objName="obj_comma_coin" x="702" y="870" name="inst_8A5B06A4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_comma_coin" x="1271" y="912" name="inst_E5E22F57" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_comma_coin" x="1464" y="986" name="inst_12F9821C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_comma_coin" x="1702" y="548" name="inst_D1D286FC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_comma_coin" x="2075" y="245" name="inst_12A1248A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_comma_coin" x="2273" y="501" name="inst_19D3A984" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_comma_coin" x="2329" y="916" name="inst_73975D38" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_comma_coin" x="2033" y="1176" name="inst_AAE8F373" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_comma_coin" x="2297" y="1226" name="inst_A1A640EC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_comma_coin" x="1173" y="521" name="inst_D13B3745" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_waterStats" x="438" y="20" name="inst_DBC0C588" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_comma_coin" x="813" y="736" name="inst_5874C358" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_comma_coin" x="912" y="830" name="inst_0EA67D89" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_coinStats" x="43" y="37" name="inst_2E186207" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_comma_coin" x="942" y="1313" name="inst_A27425B7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_comma_coin" x="1056" y="747" name="inst_EF486D83" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_comma_coin" x="1036" y="458" name="inst_8A962810" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_comma_coin" x="1817" y="469" name="inst_54BE8087" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_comma_coin" x="2352" y="1308" name="inst_57309C98" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_comma_coin" x="2355" y="141" name="inst_B7400045" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_moneyEffect01" x="678" y="976" name="inst_E3ABD3FB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_moneyEffect01" x="1605" y="619" name="inst_10A606EF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_moneyEffect01" x="1920" y="494" name="inst_06B5F141" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_moneyEffect02" x="1084" y="1125" name="inst_45D6F46B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_moneyEffect02" x="669" y="1113" name="inst_9F00496D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_moneyEffect02" x="2070" y="1118" name="inst_AD95AEA3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_moneyEffect02" x="1804" y="967" name="inst_D65E955A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_moneyEffect02" x="1360" y="396" name="inst_A11661C7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_moneyEffect02" x="1641" y="322" name="inst_C66E0D10" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_moneyEffect03" x="1045" y="962" name="inst_3F608145" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_moneyEffect03" x="1914" y="132" name="inst_3DE31C90" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_moneyEffect03" x="1824" y="198" name="inst_F2DDE14D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_moneyEffect03" x="842" y="205" name="inst_2D3D509E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_moneyEffect03" x="684" y="657" name="inst_21935809" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_moneyEffect03" x="2368" y="798" name="inst_4CAEE70B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_fluidEffect01" x="1257" y="591" name="inst_56874491" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_fluidEffect02" x="1926" y="1313" name="inst_6499CF74" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_fluidEffect02" x="1804" y="1106" name="inst_8F541982" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_fluidEffect02" x="1260" y="200" name="inst_414A48FD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_coinStats" x="43" y="37" name="inst_7119E113" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_waterStats" x="439" y="20" name="inst_8E880C39" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_fluidEffectPos" x="945" y="975" name="inst_5A7C9F50" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_fluidEffectPos" x="951" y="1117" name="inst_6EFF1342" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_fluidEffectPos" x="1820" y="609" name="inst_32A9DA83" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_fluidEffectPos" x="1045" y="594" name="inst_3F1D386D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_fluidEffectPos" x="1965" y="123" name="inst_684CD466" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_fluidEffectPos" x="2049" y="490" name="inst_ADE280E5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_fluidEffectPos" x="1924" y="1105" name="inst_2B7EFD1F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_fluidEffectPos" x="654" y="500" name="inst_DC8139FC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

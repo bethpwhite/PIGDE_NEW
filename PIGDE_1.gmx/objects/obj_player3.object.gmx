@@ -26,17 +26,23 @@
           <argument>
             <kind>1</kind>
             <string>//player movement
+/*
+if(gamepad_is_connected(0));
+gamepad_set_axis_deadzone(0,0.5);
 
-right = keyboard_check(ord('D'));
-left = keyboard_check(ord('A'));
-up = keyboard_check(ord('W'));
-down = keyboard_check(ord('S'));
+
+right = keyboard_check(vk_left)|| (gamepad_axis_value(0,gp_padr) &gt; 0 ) ;
+left = keyboard_check(vk_right)|| (gamepad_axis_value(0,gp_padl) &gt; 0 ) ;
+up = keyboard_check(vk_up)|| (gamepad_axis_value(0,gp_padu) &gt; 0 );
+down = keyboard_check(vk_down)|| (gamepad_axis_value(0,gp_padd) &gt; 0 );
+
 
 if(right) x += 6;
 if(left) x -= 6;
 if(up) y -= 6;
 if(down) y += 6;
 
+*/
 </string>
           </argument>
         </arguments>

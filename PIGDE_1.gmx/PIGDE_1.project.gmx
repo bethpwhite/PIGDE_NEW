@@ -72,10 +72,10 @@
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\textmessage.gml</script>
+    <script>scripts\collectibles.gml</script>
   </scripts>
   <objects name="objects">
     <objects name="GUIObjects">
-      <object>objects\obj_coinStats2</object>
       <object>objects\obj_coinStats</object>
       <object>objects\obj_waterStats</object>
     </objects>
@@ -87,6 +87,7 @@
       </objects>
       <objects name="FluidEffects">
         <object>objects\obj_fluidEffect01</object>
+        <object>objects\obj_fluidEffectPos</object>
         <object>objects\obj_fluidEffect02</object>
       </objects>
       <object>objects\message</object>

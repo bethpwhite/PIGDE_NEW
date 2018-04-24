@@ -4,11 +4,11 @@
   <solid>0</solid>
   <visible>-1</visible>
   <depth>0</depth>
-  <persistent>-1</persistent>
+  <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
-    <event eventtype="7" enumb="2">
+    <event eventtype="0" enumb="0">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -25,25 +25,19 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>//Variables
-//player1
+            <string>//Randomise
 
-obj_player1.player_x = obj_player1.xstart;
-obj_player1.player_y = obj_player1.ystart;
+global.location = choose;
 
 
-obj_player2.player_x = obj_player2.xstart;
-obj_player2.player_y = obj_player2.ystart;
+randomise();
+rando
+if (choose = 
+instance_create(224,128,obj_stonemermaid);
+} else if (global.enemy = "FAT") {
+instance_create(224,128,obj_testenemy);
+}
 
-/*
-//player3
-obj_player3.player_x = obj_player3.xstart;
-obj_player3.player_y = obj_player3.ystart
-
-//player4
-obj_player4.player_x = obj_player4.xstart;
-obj_player4.player_y = obj_player4.ystart
-*/
 </string>
           </argument>
         </arguments>

@@ -29,7 +29,7 @@
 
 right = keyboard_check(vk_left);
 left = keyboard_check(vk_right);
-up = keyboard_check(vk_up));
+up = keyboard_check(vk_up);
 down = keyboard_check(vk_down);
 
 if(right) x += 6;

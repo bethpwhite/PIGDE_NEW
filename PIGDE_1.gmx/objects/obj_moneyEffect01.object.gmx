@@ -67,7 +67,7 @@ global.points = global.points - 1;
           </argument>
           <argument>
             <kind>0</kind>
-            <string>"Pickpocket!"</string>
+            <string>"Pickpocketed!"</string>
           </argument>
           <argument>
             <kind>0</kind>
