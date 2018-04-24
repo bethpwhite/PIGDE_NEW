@@ -58,7 +58,9 @@
     <sprite>sprites\spr_player4r</sprite>
     <sprite>sprites\spr_player4win</sprite>
     <sprite>sprites\spr_player4lose</sprite>
-    <sprite>sprites\spr_commaCoin</sprite>
+    <sprite>sprites\Comma_Coin</sprite>
+    <sprite>sprites\CounterCoin</sprite>
+    <sprite>sprites\spr_collectible</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\HousePartyGround</background>
@@ -67,7 +69,7 @@
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
-    <script>scripts\state_move.gml</script>
+    <script>scripts\textmessage.gml</script>
   </scripts>
   <objects name="objects">
     <objects name="PlayerObjects">
@@ -96,7 +98,15 @@
     <object>objects\obj_comma_coin</object>
     <object>objects\obj_score</object>
     <object>objects\obj_winCondition</object>
-    <object>objects\obj_music</object>
+    <objects name="GUIObjects">
+      <object>objects\obj_coinStats</object>
+      <objects name="EffectObjects">
+        <objects name="MoneyEffects">
+          <object>objects\obj_moneyEffect01</object>
+        </objects>
+        <object>objects\message</object>
+      </objects>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\Party_House_Ground_Floor</room>
