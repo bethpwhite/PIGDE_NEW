@@ -28,7 +28,7 @@
             <string>/// Initialise coin sats
 
 fluid = global.water;
-maxFluid = (global.water = 10);
+maxFluid = (global.water = 5);
 </string>
           </argument>
         </arguments>

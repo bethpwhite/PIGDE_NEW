@@ -28,7 +28,7 @@
             <string>/// Initialise coin sats
 
 coins = global.points;
-maxCoins = 10;
+maxCoins = (global.points = 10);
 
 
 </string>
@@ -47,15 +47,15 @@ maxCoins = 10;
         <exetype>2</exetype>
         <functionname></functionname>
         <codestring></codestring>
-        <whoName>other</whoName>
+        <whoName>self</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>/// Draw the coins
-xoffset = 16;
+            <string>/// Draw the hearts
 
+xoffset = 16
 
 ///Use a for loop
 for (var i=0; i&lt;global.points; i++){

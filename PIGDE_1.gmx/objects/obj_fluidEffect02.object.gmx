@@ -27,7 +27,7 @@
             <kind>1</kind>
             <string>if (global.water &gt;= 1)
 {
-global.water = global.water - 10;
+global.water = global.water - 1;
 }
 </string>
           </argument>
