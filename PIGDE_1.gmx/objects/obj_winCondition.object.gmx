@@ -25,11 +25,11 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(global.points &gt;= 5)
-{
+            <string>//if(global.points &gt;= 5)
+//{
     draw_set_colour(c_yellow);
     draw_text(view_xview + 150, view_yview + 150, "Just in time!! Tampons acquired");
-}
+/*}
 
 if(global.points &lt; 5)
 {

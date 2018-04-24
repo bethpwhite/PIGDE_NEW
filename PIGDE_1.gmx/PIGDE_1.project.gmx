@@ -59,6 +59,13 @@
     <sprite>sprites\spr_player4win</sprite>
     <sprite>sprites\spr_player4lose</sprite>
     <sprite>sprites\spr_commaCoin</sprite>
+    <sprite>sprites\spr_smallcoin</sprite>
+    <sprite>sprites\spr_bottle</sprite>
+    <sprite>sprites\Frames2</sprite>
+    <sprite>sprites\sprite50</sprite>
+    <sprite>sprites\spr_start</sprite>
+    <sprite>sprites\spr_quit</sprite>
+    <sprite>sprites\triangle</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\HousePartyGround</background>
@@ -68,6 +75,8 @@
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\state_move.gml</script>
+    <script>scripts\script1.gml</script>
+    <script>scripts\scr_menu.gml</script>
   </scripts>
   <objects name="objects">
     <objects name="PlayerObjects">
@@ -80,6 +89,7 @@
       <object>objects\wallDecorGround</object>
       <object>objects\obj_wallH</object>
       <object>objects\obj_wallV</object>
+      <object>objects\wallDecorFirst</object>
     </objects>
     <objects name="DoorObjects">
       <object>objects\obj_doorClose</object>
@@ -97,8 +107,12 @@
     <object>objects\obj_score</object>
     <object>objects\obj_winCondition</object>
     <object>objects\obj_music</object>
+    <object>objects\obj_coinStats</object>
+    <object>objects\obj_waterStat</object>
+    <object>objects\obj_menu</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\MainMenu</room>
     <room>rooms\Party_House_Ground_Floor</room>
     <room>rooms\Party_House_First_Floor</room>
     <room>rooms\rm_shop</room>
