@@ -56,7 +56,7 @@ fadeAlpha = clamp(fadeAlpha + (fadeState * fadeSpeed), 0, 1);
 
 if (fadeAlpha == 1)
 {
-    playerScore = global.points;
+    playerScore = global.pointsp1;
     room_goto(tempTarget);
     fadeState = -1;
 }
@@ -64,7 +64,7 @@ if (fadeAlpha == 1)
 if (fadeAlpha == 0) &amp;&amp; (fadeState == -1)
 {
     instance_destroy();
-    global.points = playerScore;
+    global.pointsp1 = playerScore;
 }
 
 draw_set_colour(c_black);

@@ -25,9 +25,21 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(global.points &gt;= 5)
+            <string>if(global.pointsp1 &gt;= 5)
 {
-    draw_set_colour(c_yellow);
+
+    textmessage("You won!", x, y);
+}
+    else if (global.pointsp1 &lt; 5)
+    {
+    
+    textmessage("Need more money!", x, y);
+    }
+    
+    
+    
+    
+    /* draw_set_colour(c_yellow);
     draw_text(view_xview + 150, view_yview + 150, "Just in time!! Tampons acquired");
 }
 
@@ -36,6 +48,15 @@ if(global.points &lt; 5)
     draw_set_colour(c_red);
     draw_text(view_xview + 150, view_yview + 150, "It costs 5 Comma Coins to buy tampons");
 }
+
+draw_set_colour(c_white);
+draw_text(obj_player1.x, obj_player1.y, "Hey you");
+
+draw_set_colour(c_red);
+    draw_text(view_xview, view_yview, "It costs 5 Comma Coins to buy tampons");
+    */
+    
+
 </string>
           </argument>
         </arguments>

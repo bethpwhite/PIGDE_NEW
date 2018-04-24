@@ -37,6 +37,7 @@ if(left) x -= 6;
 if(up) y -= 6;
 if(down) y += 6;
 
+
 </string>
           </argument>
         </arguments>
@@ -236,6 +237,42 @@ sprite_index=spr_player1r
             <kind>1</kind>
             <string>x = player_x;
 y = player_y;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="8" enumb="64">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>/*draw_set_colour(c_white);
+draw_text(view_xview[0], view_yview[0], global.pointsp1);
+draw_set_colour(c_red);
+draw_text(view_xview[1]+195, view_yview[1]+150, global.pointsp2);
+
+ Draw the coins
+
+xoffset = 16
+
+///Use a for loop
+for (var i=0; i&lt;global.pointsp1; i++){
+draw_sprite(spr_smallCoin, 0, xstart+(xoffset*i), ystart);
+}
+*/
 </string>
           </argument>
         </arguments>
