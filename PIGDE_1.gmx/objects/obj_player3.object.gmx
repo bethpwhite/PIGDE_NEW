@@ -71,7 +71,7 @@ if(up) y -= 6;
 if(down) y += 6;
 */
 
-state_move(0,spd);
+
 
 </string>
           </argument>

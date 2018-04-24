@@ -77,6 +77,8 @@
     <script>scripts\state_move.gml</script>
     <script>scripts\script1.gml</script>
     <script>scripts\scr_menu.gml</script>
+    <script>scripts\scr_message.gml</script>
+
   </scripts>
   <objects name="objects">
     <objects name="PlayerObjects">

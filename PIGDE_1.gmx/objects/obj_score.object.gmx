@@ -25,8 +25,16 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>global.points = 0;
-global.water = 5;
+
+            <string>global.pointsp1 = 0;
+global.waterp1 = 5;
+global.pointsp2 = 0;
+global.waterp2 = 5;
+global.pointsp3 = 0;
+global.waterp3 = 5;
+global.pointsp4 = 0;
+global.waterp4 = 5;
+
 </string>
           </argument>
         </arguments>
@@ -50,10 +58,14 @@ global.water = 5;
           <argument>
             <kind>1</kind>
             <string>draw_set_colour(c_white);
-draw_text(view_xview, view_yview, global.points);
-
+draw_text(obj_player1.x, obj_player1.y - 40, global.pointsp1);
+draw_set_colour(c_red);
+draw_text(obj_player2.x + 5, obj_player2.y - 40, global.pointsp2);
+/*
 draw_set_colour(c_aqua);
-draw_text(view_xview, (view_yview + 12), global.water);
+draw_text(view_xview, (view_yview + 12), global.waterp1);
+*/
+
 </string>
           </argument>
         </arguments>
