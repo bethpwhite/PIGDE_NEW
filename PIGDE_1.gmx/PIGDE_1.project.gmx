@@ -71,8 +71,6 @@
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
-    <script>scripts\textmessage.gml</script>
-    <script>scripts\collectibles.gml</script>
     <script>scripts\scr_message.gml</script>
   </scripts>
   <objects name="objects">
