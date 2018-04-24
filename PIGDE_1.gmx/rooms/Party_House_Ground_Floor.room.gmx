@@ -182,6 +182,7 @@
     <instance objName="obj_fluidEffectPos" x="2049" y="490" name="inst_ADE280E5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_fluidEffectPos" x="1924" y="1105" name="inst_2B7EFD1F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_fluidEffectPos" x="654" y="500" name="inst_DC8139FC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_player2" x="2202" y="552" name="inst_F5014F77" locked="0" code="" scaleX="0.100000001490116" scaleY="0.100000001490116" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
