@@ -8,6 +8,30 @@
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
+    <event eventtype="0" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>spd=6;
+
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
     <event eventtype="3" enumb="0">
       <action>
         <libid>1</libid>
@@ -25,24 +49,30 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>//player movement
+            <string>//controller
+
+if(gamepad_is_connected(0))
+gamepad_set_axis_deadzone (0,0.5);
+
+//player movement
 /*
-if(gamepad_is_connected(0));
-gamepad_set_axis_deadzone(0,0.5);
+right = keyboard_check(vk_right)|| (gamepad_axis_value(0,gp_padr) &gt; 0 ) ;
+left = -(keyboard_check(vk_left) || (gamepad_axis_value(0,gp_padl) &lt; 0))  ;
+up = keyboard_check(vk_up)|| (gamepad_axis_value(0,gp_padu) &gt; 0 ) ;
+down = -(keyboard_check(vk_down)|| (gamepad_axis_value(0,gp_padd) &lt; 0 )) ;
+alternative movement below*/
 
 
-right = keyboard_check(vk_left)|| (gamepad_axis_value(0,gp_padr) &gt; 0 ) ;
-left = keyboard_check(vk_right)|| (gamepad_axis_value(0,gp_padl) &gt; 0 ) ;
-up = keyboard_check(vk_up)|| (gamepad_axis_value(0,gp_padu) &gt; 0 );
-down = keyboard_check(vk_down)|| (gamepad_axis_value(0,gp_padd) &gt; 0 );
 
-
+/*
 if(right) x += 6;
 if(left) x -= 6;
 if(up) y -= 6;
 if(down) y += 6;
-
 */
+
+state_move(0,spd);
+
 </string>
           </argument>
         </arguments>
