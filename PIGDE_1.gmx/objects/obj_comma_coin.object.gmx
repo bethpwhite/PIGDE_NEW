@@ -121,7 +121,7 @@
         <arguments>
           <argument>
             <kind>6</kind>
-            <sound>-100</sound>
+            <sound>coin_collect</sound>
           </argument>
           <argument>
             <kind>3</kind>
