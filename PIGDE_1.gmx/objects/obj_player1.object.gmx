@@ -235,16 +235,8 @@ sprite_index=spr_player1r
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>// Location
-x = player_x;
+            <string>x = player_x;
 y = player_y;
-
-// Points
-
-water = 5;
-coins = 0;
-
-
 </string>
           </argument>
         </arguments>

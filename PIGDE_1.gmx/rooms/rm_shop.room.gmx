@@ -53,17 +53,7 @@
   <instances>
     <instance objName="floorChanger" x="1011" y="921" name="inst_806D436C" locked="0" code="targetRoom = Party_House_Ground_Floor;&#xA;target_x = 1435;&#xA;target_y = 150;&#xA;" scaleX="13" scaleY="0.727272748947144" colour="4294967295" rotation="0"/>
     <instance objName="obj_score" x="6" y="13" name="inst_E7666AD5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_winCondition" x="1017" y="710" name="inst_BA564967" locked="0" code="" scaleX="31.8999996185303" scaleY="1.22222220897675" colour="4294967295" rotation="0"/>
-    <instance objName="obj_wallH" x="590" y="212" name="inst_C1E314B4" locked="0" code="" scaleX="26.5300006866455" scaleY="5.7142858505249" colour="4294967295" rotation="0"/>
-    <instance objName="obj_wallH" x="1175" y="703" name="inst_743E4CE6" locked="0" code="" scaleX="8.3870964050293" scaleY="1.71000003814697" colour="4294967295" rotation="0"/>
-    <instance objName="obj_wallH" x="595" y="689" name="inst_60CAEF06" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_wallH" x="591" y="701" name="inst_B40A8F02" locked="0" code="" scaleX="8.47999954223633" scaleY="1.85714280605316" colour="4294967295" rotation="0"/>
-    <instance objName="obj_wallV" x="593" y="253" name="inst_F0CB8FC3" locked="0" code="" scaleX="0.899999976158142" scaleY="3.62204718589783" colour="4294967295" rotation="0"/>
-    <instance objName="obj_wallV" x="1405" y="239" name="inst_0A2BA956" locked="0" code="" scaleX="1.1612902879715" scaleY="3.65354323387146" colour="4294967295" rotation="0"/>
-    <instance objName="obj_wallH" x="-3" y="34" name="inst_4DC3F7C3" locked="0" code="" scaleX="62.65625" scaleY="3.38000011444092" colour="4294967295" rotation="0"/>
-    <instance objName="obj_wallH" x="-1" y="943" name="inst_2498E3AC" locked="0" code="" scaleX="62.6599998474121" scaleY="2.375" colour="4294967295" rotation="0"/>
-    <instance objName="obj_wallV" x="1996" y="36" name="inst_6DA5E806" locked="0" code="" scaleX="0.84375" scaleY="7.23000001907349" colour="4294967295" rotation="0"/>
-    <instance objName="obj_wallV" x="-27" y="32" name="inst_A88C69A5" locked="0" code="" scaleX="1.21875" scaleY="7.2734375" colour="4294967295" rotation="0"/>  
+    <instance objName="obj_winCondition" x="1003" y="794" name="inst_BA564967" locked="0" code="" scaleX="31.8999996185303" scaleY="1.22222220897675" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
